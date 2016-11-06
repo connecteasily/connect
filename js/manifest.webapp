@@ -1,0 +1,10 @@
+{
+    "name": "CONNECT",
+    "description": "Connect with friends on all social media with one tap",
+    "launch_path": "/index.html",
+    "type": "privileged",
+    "default_locale": "en",
+    "permissions": {
+        "nfc": {}
+    }
+}

@@ -1,0 +1,41 @@
+h3{
+    text-align: center;
+  font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    color: white;
+}
+body {
+    background: url("/img/"bench.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+#logo
+{
+    
+    font-family: 'Dancing Script', cursive;
+    font-size:100px;
+    color: grey;
+    letter-spacing: 9px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-size: 100px;
+    color: white;
+}
+
+.text {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}

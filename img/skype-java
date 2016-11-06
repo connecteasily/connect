@@ -1,0 +1,10 @@
+<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<span id="SkypeButton_Call_koh.raphael_1" class="badge" id="skype">
+ <script type="text/javascript">
+ Skype.ui({
+ "name": "chat", 
+ "element": "SkypeButton_Call_koh.raphael_1",
+ "participants": ["koh.raphael"]
+ });
+ </script>
+</span>

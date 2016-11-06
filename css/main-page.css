@@ -1,0 +1,112 @@
+#logo
+{
+    font-family: 'Raleway';
+    font-size:100px;
+    float: left;
+    color: grey;
+}
+
+header {
+    height: 40px;
+    margin-top: 0;
+}
+h1{
+    text-align:center;
+    margin: auto;
+    margin-left: 45%;
+    font-family: 'Raleway', sans serif;
+    color: white;
+    font-size: 80px;
+    position: absolute;
+}
+
+.icons {
+    margin:0 auto;
+    background: rgba(0,0,0,0.4);
+    border-radius: 150px;
+    border: 3px solid  grey;
+    display:inline-block;
+    width :1000px;
+}
+
+body {
+    background-image:url("/img/dawn-landscape-mountains-nature.jpg");
+    background-size: cover;
+}
+
+h3 {
+    font-family: 'Raleway', cursive;
+    font-size:100px;
+    color: grey;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.badge img { 
+    width:150px;
+    height:150px;
+    display:flex;
+}
+span {
+    padding: 100px;
+    margin-top: 100px;
+}
+
+#Facebook img{
+    margin: 0 auto;
+}
+
+#Instagram img{
+    margin: 0 auto;
+}
+
+#Twitter img{
+    margin: 0 auto;
+}
+
+#Gmail img{
+    margin: 0 auto;
+}
+
+#Snapchat img{
+    margin: 0 auto;
+}
+
+#LinkedIn img{
+    margin: 0 auto;
+}
+
+#Skype img{
+    margin: 0 auto;
+
+}
+
+
+#googletonebutton {
+    float: right;
+    background-color: #499996;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    padding: 0.5em;
+    border-radius: 50px;
+ 
+}
+#googletonebutton:hover{
+  background:#ffa800;
+  color:#000;
+}
+
+.b img{
+    display: inline;
+    padding: 30px;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.rig{
+    list-style: none;
+}

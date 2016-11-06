@@ -1,0 +1,123 @@
+body {
+    background-image: url("/img/gg.jpg");
+    background-size:cover;
+}
+h3 {
+    font-family: 'Raleway', cursive;
+    font-size:100px;
+    color: grey;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form {
+    padding: 30px;
+}
+form div + div {
+    margin-top: 1em;
+}
+.username-input {
+    padding-top: 0.5em;
+    padding-bottom: 0.75em;
+    background-color: rgba(200, 200, 200, 0.7);
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 7px;
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.username-input:hover, .username-input:focus {
+    background-color: rgba(240, 240, 240, 0.7);
+}
+label {
+    font-family: 'Alegreya', serif;
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    padding-left: 0.5em;
+}
+input, textarea {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    width: 350px;
+    color: white;
+    font-style: italic;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+input {
+    padding-left: 1em;
+}
+.question-mark img{
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+}
+.delete-username {
+    font-family: 'Alegreya', serif;
+    display: inline-block;
+    margin-right: 0.75em;
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 100%;
+    background-color: rgba(200, 200, 200, 0.7);
+    background: transparent;
+}
+.delete-username:hover {
+    
+    background-color: rgba(200, 200, 200, 0.7);
+}
+.button {
+    margin-top: 20px;
+    margin-left: 450px;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: #009688;
+    color: black;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 7px 30px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+    background-color: #009688;
+}
+.button:hover {
+    background-color: #B2DFDB;
+}
+
+.facebook-info {
+    visibility: hidden;
+}
+.question-mark:hover .facebook-info
+{
+    visibility: visible;
+    position: absolute;
+    border: 1px groove gray;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+}
+
+.save-button {
+    height: 30px;
+    width: 30px;
+}
+.content {
+ margin-left: 700px;
+}

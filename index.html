@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Connect </title>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet" >
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/stylesheet.css"/>
+<script src="https://apis.google.com/js/platform.js" async defer></script> <!--integrating google sign-in api -->
+<meta name="google-signin-client_id" content="219891716484-a96tlmhiocq59p20h0995irusmnp1hpe.apps.googleusercontent.com">
+<!-- google api client id: 219891716484-a96tlmhiocq59p20h0995irusmnp1hpe.apps.googleusercontent.com -->
+<!-- google api client secret: D1PQWmKSc4W9UAXTb3BDTBxR -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(".hi").hide();
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        if ($(".hi").is(':hidden')){
+          $("#slider").slideUp();
+          $(".hi").show(1000);
+        }else{
+          $("#slider").slideDown();
+          $(".hi").hide(1000);
+        }
+          
+    });
+});
+</script>
+</head>
+<body>
+<div class="main">
+      <p id="slider"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <div class="container">
+        <!--need to think of a catchphrase-->
+        <h1>Connect.</h1>
+        <p> Connect to the world with a simple click.</p>
+        <!-- Log In and Start now buttons-->
+        <div class="buttons">
+          <a class="btn1" href="#">Log In</a>
+          <a class="btn2" href="signup.html">Sign Up</a> 
+        </div>
+        <div class ="hi" style="display: none;">
+          <form action="php/loginattempt.php" method="post">
+              <div>
+                <label for="username"><b>Username:</b></label>
+                <input type="text" id="username" name="user_username" />
+              </div>
+              <div>
+                <label for="password"><b>Password:</b></label>
+                <input type="password" id="password" name="user_password" />
+              </div>
+              <div class="button">
+                <button type="submit" name="cmd" value="ADD">Submit!</button>
+              </div>
+</html>

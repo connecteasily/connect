@@ -1,0 +1,33 @@
+#home 
+{
+    float: left;
+    margin-bottom: 0;
+    height: 50px;
+    width: 50px;
+}
+
+#settings 
+{
+    float: left;
+    margin-bottom: 0;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#sign-out
+{
+    float: left;
+    margin-bottom: 0;
+    margin-left:20px ;
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    position: fixed;
+    bottom:0;
+    left:0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
