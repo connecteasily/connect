@@ -32,7 +32,7 @@ function generatelink($file, $username, $media)
     $name=$values[5];
     $link="https://feelinsonice.appspot.com/web/deeplink/snapcode?username=".$name."&size=400&type=PNG";
     } elseif($media=="linkedin") {
-    $name=$values[6];
+    $name=$values[7];
     $link="https://www.linkedin.com/in/".$name;
     }
     $link = 'Location: ' . $link;
