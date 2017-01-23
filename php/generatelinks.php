@@ -1,3 +1,4 @@
+/* Copyright of Riya Walia */
 <?php
 
 function findusername($file, $username) {
