@@ -1,3 +1,5 @@
+/* Copyright of Riya Walia */
+
 <?php
     $myfile = fopen("profiles.txt", "r") or die("Unable to open file!");
     
