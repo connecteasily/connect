@@ -5,7 +5,7 @@ h3{
     color: white;
 }
 body {
-    background: url("/img/"bench.jpg") no-repeat center center fixed;
+    background: url("../img/bench.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 #logo
