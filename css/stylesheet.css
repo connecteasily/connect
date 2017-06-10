@@ -1,70 +1,54 @@
 body {
-  margin: 0;
-  text-align: center;
-  background: url("../img/bench.jpg") no-repeat center center fixed;
-  background-size: cover;
+    margin: 0;
+    text-align: center;
+    background: url("../img/bench.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .main h1 {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-  margin: 0;
-  font-size: 150px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    font-size: 150px;
 }
 
 .container {
-  max-width: 940px;
-  margin: auto;
+    max-width: 940px;
+    margin: auto;
 }
 
 /* Main */
 
 .main .container {
-  position: relative;
-  top: 250px;
+    position: relative;
+    top: 250px;
 }
-
-.buttons {
-  position: relative;
-  padding-bottom:2em;
+.buttons_container {
+    position: relative; 
+    padding-bottom: 2em; 
+}
+a.buttons {
+    background-color: #499996;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Roboto';
+    padding: 8px 30px;
+    width: 100px;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .main p {
-  color: #fff;
-  font-family: 'Roboto';
-  margin: 0 0 20px 0;
-  font-size: 40px;
+    color: #fff;
+    font-family: 'Roboto';
+    margin: 0 0 20px 0;
+    font-size: 40px;
 }
 
-a.btn1 {
-  background-color: #499996;
-  color: #fff;
-  font-size: 25px;
-  font-family: 'Roboto';
-  padding: 8px 30px;
-  width: 100px;
-  text-decoration: none;
-  display: inline-block;
-}
-a.btn2 {
-  background-color: #499996;
-  color: #fff;
-  font-size: 25px;
-  font-family: 'Roboto';
-  padding: 8px 30px;
-  width: 100px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a.btn1:hover {
-  background:#ffa800;
-  color:#000;
-}
-a.btn2:hover {
-  background:#ffa800;
-  color:#000;
+a.buttons:hover {
+    background: #A3E5D8;
+    color: #000;
 }
 
 form {
@@ -94,8 +78,7 @@ label {
     color: #fff;
     
 }
-input, textarea {
-    
+input, textarea {   
     font-family: 'Roboto', serif;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -136,7 +119,7 @@ input:focus, textarea:focus {
     border-radius: 7px;
     
 }
-.button {
+.submit_button {
     padding-top: 30px;
     /* To position the buttons to the same position of the text fields */
 }
@@ -145,11 +128,11 @@ button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
-     background-color: #499996;
-  color: #fff;
-  font-size: 25px;
-  font-family: 'Roboto';
-  padding: 8px 30px;
-  text-decoration: none;
-  display: inline-block;
+    background-color: #499996;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Roboto';
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
 }

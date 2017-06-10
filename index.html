@@ -12,17 +12,16 @@
 <!-- google api client secret: D1PQWmKSc4W9UAXTb3BDTBxR -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
-$(".hi").hide();
+$(".login_form").hide();
 $(document).ready(function(){
-    $(".btn1").click(function(){
-        if ($(".hi").is(':hidden')){
+    $("#login_button").click(function(){
+        if ($(".login_form").is(':hidden')){
           $("#slider").slideUp();
-          $(".hi").show(1000);
+          $(".login_form").show(1000);
         }else{
           $("#slider").slideDown();
-          $(".hi").hide(1000);
-        }
-          
+          $(".login_form").hide(1000);
+        }          
     });
 });
 </script>
@@ -35,11 +34,11 @@ $(document).ready(function(){
         <h1>Connect.</h1>
         <p> Connect to the world with a simple click.</p>
         <!-- Log In and Start now buttons-->
-        <div class="buttons">
-          <a class="btn1" href="#">Log In</a>
-          <a class="btn2" href="signup.html">Sign Up</a> 
+        <div class="buttons_container">
+          <a class="buttons"  id ="login_button"href="#">Log In</a>
+          <a class="buttons" href="signup.html">Sign Up</a> 
         </div>
-        <div class ="hi" style="display: none;">
+        <div class ="login_form" style="display: none;">
           <form action="php/loginattempt.php" method="post">
               <div>
                 <label for="username"><b>Username:</b></label>
@@ -49,7 +48,7 @@ $(document).ready(function(){
                 <label for="password"><b>Password:</b></label>
                 <input type="password" id="password" name="user_password" />
               </div>
-              <div class="button">
-                <button type="submit" name="cmd" value="ADD">Submit!</button>
+              <div class="submit_button">
+                <button type="submit" name="cmd" value="ADD">Submit</button>
               </div>
 </html>
